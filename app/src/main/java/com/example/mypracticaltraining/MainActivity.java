@@ -1,4 +1,4 @@
-package com.example.jipeihao.myapplication;
+package com.example.mypracticaltraining;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,12 +10,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        show();
+            show();
+
     }
 
     private void show() {
-        Toast.makeText(this, "哈喽，你好", Toast.LENGTH_SHORT).show();
-        
-        String str="你好";
+
+        Toast.makeText(this, "老牛是个傻狗", Toast.LENGTH_SHORT).show();
     }
 }

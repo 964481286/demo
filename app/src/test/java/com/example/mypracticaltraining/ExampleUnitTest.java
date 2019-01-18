@@ -1,4 +1,4 @@
-package com.example.jipeihao.myapplication;
+package com.example.mypracticaltraining;
 
 import org.junit.Test;
 
